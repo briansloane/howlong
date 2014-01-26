@@ -1,0 +1,10 @@
+{
+  "appName": {
+    "message": "howlong",
+    "description": "The name of the application"
+  },
+  "appDescription": {
+    "message": "How long does it take",
+    "description": "The description of the application"
+  }
+}

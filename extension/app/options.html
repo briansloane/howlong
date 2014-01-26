@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+    <head>
+        <link href="styles/main.css" rel="stylesheet">
+    </head>
+    <body>
+        <!-- CHROME EXTENSION OPTION -->
+      <div class="row-fluid">
+        <div class="span12">          
+          <div id="alert" class="alert hidden">
+            <button type="button" class="close" data-dismiss="alert">&times;</button>          
+            <div id="status"></div>
+          </div>
+          <div class="form-horizontal">
+            <div class="control-group">
+              <label class="control-label" for="inputOrigin">Origin</label>
+              <div class="controls">
+                <input type="text" id="inputOrigin" placeholder="Default Origin">
+              </div>
+            </div>
+            <div class="control-group">
+              <div class="controls">
+                <button id="save" type="submit" class="btn">Save</button>
+              </div>
+            </div>
+          </div>        
+
+        </div>
+      </div>
+
+      <!-- build:js scripts/options.js -->
+      <script src="scripts/options.js"></script>
+      <!-- endbuild -->        
+    </body>
+</html>

@@ -1,0 +1,21 @@
+<div class="hero-unit">
+  <h2>How long does it take...</h2>
+  <form class="form">
+    <div class="control-group">
+      <div class="controls">
+        <input type="text" id="inputOrigin" ng-model="origin" placeholder="Origin">
+      </div>
+    </div>
+    <div class="control-group">
+      <div class="controls">
+        <input type="text" id="inputDestination" ng-model="destination" placeholder="Destination">
+      </div>
+    </div>  
+  </form>
+  <div class="row">
+    <button ng-click="calculateDistances()" class="btn pull-right btn-primary btn-large">Calculate</button>
+  </div>
+  <div class="row">
+    <h3 id="outputDiv" class="clearfix"></h3>
+  </div>
+</div>
